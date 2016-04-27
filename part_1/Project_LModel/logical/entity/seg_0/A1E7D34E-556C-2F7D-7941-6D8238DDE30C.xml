@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1E7D34E-556C-2F7D-7941-6D8238DDE30C" name="S16_Project">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:27:30 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_no" id="8EECE3CB-4AFE-507E-86DF-B152345AABF8">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:27:46 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="2574B534-61CE-5F07-D704-BB173D75B5CB">
+<createdBy>mario</createdBy>
+<createdTime>2016-04-19 17:45:49 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project_title" id="57E5D12C-EFD6-DC2B-BF2E-CD903AF9CFAC">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:28:01 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_date" id="5CA18605-7EED-77F7-DF45-BC955BAD2F47">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:28:15 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project_active" id="A58437D3-19C9-B56D-86E9-7FDCF5FB49EA">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:28:23 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="est_person_hours" id="3476D259-E86A-FD75-EA1B-273E570CB09A">
+<createdBy>mario</createdBy>
+<createdTime>2016-04-19 17:37:05 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="master_project_no" id="1FA6FC63-FDFC-5BED-D180-3D51F3EF43A0">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:34:05 UTC</createdTime>
+<generatorID>6F1232C9-278F-27F7-DEF5-212AEEBF8A3F</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8EECE3CB-4AFE-507E-86DF-B152345AABF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pmanager_id" id="E46EC7B1-02D9-724A-7379-C34B144F12E7">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:35:27 UTC</createdTime>
+<generatorID>75016AE6-70C3-8C0F-2B33-7BDEE2354792</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>02E5DB17-44A9-8F3A-1372-4F5EEB46DD6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept_no" id="8610D886-5384-0D05-7105-816BDBDAB0C5">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:42:27 UTC</createdTime>
+<generatorID>56A00B91-CBA2-0816-2171-7C2E8C37DCAC</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>92D447A4-7CE0-6C82-F388-DBEF03564DAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="450D1037-C505-0860-29A2-FB100BE42815" name="S16_Project PK">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:27:58 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8EECE3CB-4AFE-507E-86DF-B152345AABF8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

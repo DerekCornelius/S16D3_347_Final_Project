@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="557F7EBC-7472-BE0D-8A42-C9B24918B831" name="S16_Parent_Child">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>C0F52CD0-BA99-F399-EBB2-F226BF87CB85</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="parent_child_id" id="EF3498A2-148B-8266-FE29-440CBDED86B8">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>0A1D35B2-6EA8-56D1-9FC4-63DE8F3908A9</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parent_id" id="49790E3B-250E-4F9D-1663-622D3AD0318C">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>2BBF32AA-CE34-C815-A10C-A787655A89AE</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="child_id" id="DB8337C9-2CB1-CA7F-2590-B5EA8DA80C1D">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>30813BFB-BB7F-084B-EEE8-87E167C08256</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D014C518-0620-AC9C-BB37-BC00BFE16398" name="S16_Parent_Child_PK">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>86F6E8F0-4FA1-17B5-0A98-D12107BDFFE9</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

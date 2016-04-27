@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA0DB044-9948-B93D-66CE-8D81294F93F9" name="S16_Order_Item">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:06:53 UTC</createdTime>
+<generatorID>2B3BF3BD-55F8-7C7A-7537-1BE5829B2E3E</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="order_item_id" id="C33ECB75-4096-2A9E-665C-B4EBED142A17">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:06:53 UTC</createdTime>
+<generatorID>4299A9B5-BA19-D43E-CC45-09B92E0987A4</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="E2C4D6BA-9A61-7592-C91C-270F14273CD8">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:06:53 UTC</createdTime>
+<generatorID>DCA483C5-D94E-EF14-0448-49B147250975</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_id" id="F362E61B-D509-C9B7-A108-48A3A4177D4B">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:06:53 UTC</createdTime>
+<generatorID>50B63127-1855-2352-C054-783C75B4684E</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="product_id" id="56A71D13-ADE0-A87C-AFB4-5E3B97B1BAEB">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:06:53 UTC</createdTime>
+<generatorID>BD64ECE1-884B-7526-3B50-DD568082E010</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89AD419F-A53D-4861-C86A-6165F918FB3E" name="S16_Order_Item_PK">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:06:53 UTC</createdTime>
+<generatorID>6D2EDD57-B265-42CF-D279-047032F26BA4</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

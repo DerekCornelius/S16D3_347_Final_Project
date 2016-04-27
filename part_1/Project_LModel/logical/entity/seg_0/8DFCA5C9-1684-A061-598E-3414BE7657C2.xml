@@ -1,0 +1,266 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8DFCA5C9-1684-A061-598E-3414BE7657C2" name="S16_Person">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:21:10 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="02E5DB17-44A9-8F3A-1372-4F5EEB46DD6F">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:21:28 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="876960C1-FFB2-7E4B-332A-320476C2B497">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:21:43 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="5EEC1B23-227C-8EE9-4ED8-94939174FD96">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:21:57 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="755935FF-83C7-AFE4-04B4-2CFD9E041D3C">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:22:08 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="home_address" id="D03A4F04-6BBC-66BE-C6BB-D39959FD9CE2">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:22:32 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zipcode" id="3B3BD1B5-B689-FD60-4357-BC04EFAE7BCD">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:24:32 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="home_phone" id="E8C41FB0-85A5-E68C-E07E-829E1914F693">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:25:45 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="us_citizen" id="7E1BBEC4-F959-581B-8CFA-B4876C719F8C">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:22:51 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="F9B8CD69-7DDF-12E2-E642-B453B1D41FF5">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:23:04 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="83FE5882-0862-7605-B778-1655776CEBE6">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:23:15 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary_exception" id="7D2A2C89-FAB9-9C9F-45E4-164BB927460B">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:23:23 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bonus" id="05429609-2D5F-34DF-55BD-316609E7425F">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:23:33 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_fired" id="7A134CC5-BC36-3735-7364-2B388E877B04">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:23:44 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="old_salary" id="E5530B8A-3D25-FFF3-26B6-38ACA9AFBC61">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:23:54 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="spouse_id" id="D9E5DBC9-37CF-880D-7080-BF7C6567F2EA">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:30:52 UTC</createdTime>
+<generatorID>D6404336-9CDC-81AA-1B0C-BC0D5DE9709F</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>02E5DB17-44A9-8F3A-1372-4F5EEB46DD6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manager_id" id="AD741359-CE7F-1E6A-1AEA-68CF8C194FF4">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:31:38 UTC</createdTime>
+<generatorID>B92BA2A8-1843-D38E-CF46-E78308948B1E</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>02E5DB17-44A9-8F3A-1372-4F5EEB46DD6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept_no" id="0E75098D-9B9C-9732-8984-8CA607CF75BC">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:41:51 UTC</createdTime>
+<generatorID>18C13B26-1CFF-7BC7-5DE3-5E88C840C2DC</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>92D447A4-7CE0-6C82-F388-DBEF03564DAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B27BFF5-535B-672B-5A20-761EBCBDE80B" name="S16_Person PK">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:21:39 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02E5DB17-44A9-8F3A-1372-4F5EEB46DD6F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2551A4F5-1BD6-492E-41DF-872A7F070BF9" name="S16_Proj_Emp">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:29:16 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpe_id" id="EB792915-4670-E514-4430-62296325EEDB">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:29:39 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cproject_no" id="9B2F2A73-611F-95A1-37C0-60CB5799F2D8">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:39:32 UTC</createdTime>
+<generatorID>09B79747-19CE-C522-3A8D-98B0F4CF3FD4</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8EECE3CB-4AFE-507E-86DF-B152345AABF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpemployee_id" id="5D7574CE-CB84-53ED-E8E7-AC9993A6FDD7">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:40:24 UTC</createdTime>
+<generatorID>E065A5DC-AE6D-8BA1-A3BA-7830165763DC</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>02E5DB17-44A9-8F3A-1372-4F5EEB46DD6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79B59EA8-786D-5FAE-757E-C24018B036C7" name="S16_Proj_Emp PK">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:52:59 UTC</createdTime>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<engineerTo>
+<item key="A6A3D382-1111-CCCE-C0EB-95935ED6A2A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB792915-4670-E514-4430-62296325EEDB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

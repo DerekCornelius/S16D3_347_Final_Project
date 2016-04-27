@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="967E61AA-DD9E-5A05-359E-BFC52220C403" name="Employee">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 01:40:09 UTC</createdTime>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<engineerTo>
+<item key="4BD68001-B3A9-1E36-A5B6-C4821D8FABD6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>B46DDF91-6EBF-F598-9DFC-8A7152F6F082</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="employee_id" id="B985EB91-3C6C-7052-1E24-9F65D2537FAD">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 01:42:13 UTC</createdTime>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<engineerTo>
+<item key="4BD68001-B3A9-1E36-A5B6-C4821D8FABD6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="0236385D-358C-6B89-3DD7-4C79152116CE">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 01:42:42 UTC</createdTime>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<engineerTo>
+<item key="4BD68001-B3A9-1E36-A5B6-C4821D8FABD6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary_exception" id="D53249E0-B92C-BF43-319B-EDD229558F04">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 01:43:11 UTC</createdTime>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<engineerTo>
+<item key="4BD68001-B3A9-1E36-A5B6-C4821D8FABD6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manager_id" id="A526AB29-D037-2268-6FED-D29DC6A3B696">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 05:59:25 UTC</createdTime>
+<generatorID>5BB51104-52BF-96A6-DF7A-DB9C21B33DF1</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<engineerTo>
+<item key="4BD68001-B3A9-1E36-A5B6-C4821D8FABD6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B985EB91-3C6C-7052-1E24-9F65D2537FAD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

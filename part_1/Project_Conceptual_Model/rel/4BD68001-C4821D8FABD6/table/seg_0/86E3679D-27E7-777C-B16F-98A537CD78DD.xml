@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86E3679D-27E7-777C-B16F-98A537CD78DD" name="S16_Territory">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:06:53 UTC</createdTime>
+<generatorID>043556A4-0162-0A50-57B2-93B73715B28C</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="territory_id" id="5D6F208B-F6F9-91B5-3967-C483E9A3AAA5">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:06:53 UTC</createdTime>
+<generatorID>0FD1331A-20B7-4555-93C5-09EB2C80DB0F</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="27E0BBF9-BC8F-5C5D-D838-2C92F9C636B0">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:06:53 UTC</createdTime>
+<generatorID>BFE48615-4327-A9E1-A32B-2F6A461EA8A7</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CCFFD09-40C2-0CE2-1B61-0AD7C1D5D1F2" name="S16_Territory_PK">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:06:53 UTC</createdTime>
+<generatorID>3081BEFC-ED5A-63F5-3775-5A6DD1505B2B</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

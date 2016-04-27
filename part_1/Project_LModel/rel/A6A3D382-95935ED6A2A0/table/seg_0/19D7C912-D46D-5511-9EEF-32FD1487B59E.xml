@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19D7C912-D46D-5511-9EEF-32FD1487B59E" name="S16_Proj_Emp">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:54:00 UTC</createdTime>
+<generatorID>2551A4F5-1BD6-492E-41DF-872A7F070BF9</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpe_id" id="AF0E81A7-71DE-F40C-0ADA-5B5C076FA4DB">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:54:00 UTC</createdTime>
+<generatorID>EB792915-4670-E514-4430-62296325EEDB</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="S16_Project_project_no" id="71D83243-2530-972E-6364-FA2AB0A461B4">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:54:00 UTC</createdTime>
+<generatorID>9B2F2A73-611F-95A1-37C0-60CB5799F2D8</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CC23F98-87F9-EA5F-4C3F-113D64B1BA81" referredColumn="3D50B732-C891-0BB7-C521-923E24FAE1AB"/>
+</associations>
+</Column>
+<Column name="S16_Person_person_id" id="425C4BD0-9A3D-CCE1-A517-5797F2005DFC">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:54:00 UTC</createdTime>
+<generatorID>5D7574CE-CB84-53ED-E8E7-AC9993A6FDD7</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D063E5A-14BC-8AD2-9E64-8175AE827CFB" referredColumn="00E50782-A890-FD7C-B6D0-916EB5B7D6B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE17C79B-860A-6118-A044-98E3CD4DA6FB" name="S16_Proj_Emp_PK">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:54:00 UTC</createdTime>
+<generatorID>79B59EA8-786D-5FAE-757E-C24018B036C7</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF0E81A7-71DE-F40C-0ADA-5B5C076FA4DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8696C3D8-0DB9-A0C0-D442-2B9BED9D3A03" name="S16_Proj_Emp_S16_Person_FK">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:54:00 UTC</createdTime>
+<generatorID>E065A5DC-AE6D-8BA1-A3BA-7830165763DC</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="425C4BD0-9A3D-CCE1-A517-5797F2005DFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F6FCB78-B8B3-964E-AA25-13DF937403CF" name="S16_Proj_Emp_S16_Project_FK">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:54:00 UTC</createdTime>
+<generatorID>09B79747-19CE-C522-3A8D-98B0F4CF3FD4</generatorID>
+<ownerDesignName>Project_LModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71D83243-2530-972E-6364-FA2AB0A461B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
