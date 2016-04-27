@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="010AC677-DA46-F8D9-4489-BC4BD7A2C7B7" name="S16_Project">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>C711324B-8237-A772-D7AA-2E4A35C52780</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="project_no" id="9A30164E-837F-1AA1-E68B-7C2BD2782F66">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>839A93BC-0C6F-B120-CA58-498243270D50</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_title" id="424CA799-2847-EECB-1342-8743F23CD62B">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>F7CE6ED6-B99C-B902-C0EF-6670B4BAB062</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="5F4A2BA4-9BDC-FA0C-EC3A-F68C1D66E7CF">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>EC1C447E-CD0A-5BFF-FA73-137E88EFC222</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="est_person_hours" id="25D143FE-4327-E118-864B-7CA9E2304402">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>B6AB010A-7951-E6E5-CC6D-A52D7D4582A2</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_active" id="DC1C946D-702F-B2BB-746A-68BAC051D185">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>AD6847FA-F213-2BBB-49EA-4A384F231E95</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="master_project_no" id="0D62E726-A0F4-CB6A-700C-5EE862B29667">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>2821F658-85DC-D181-188F-5C6BF87FEC59</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pmanager_id" id="AF5FD990-79F4-7DD2-6F06-CF02F7AA219C">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>A3CB5880-7320-4CE6-6F2C-98018A267B51</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dept_no" id="A4D37472-EC4C-7D1D-B918-1E03601FDF40">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>3F40C88F-490A-89B5-1546-B66A8B9F9D1C</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="623225ED-3F59-FEB6-ADFD-4BBAC3493109" name="S16_Project_PK">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>B835A493-05A5-E3A3-D6BA-A71BB42D1F6A</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

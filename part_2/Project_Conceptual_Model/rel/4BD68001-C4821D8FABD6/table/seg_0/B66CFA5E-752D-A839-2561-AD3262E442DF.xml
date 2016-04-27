@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B66CFA5E-752D-A839-2561-AD3262E442DF" name="S16_Department">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>326EF75C-7FF7-FEB9-A43B-CE207140D546</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dept_no" id="5CA3567A-50DE-99BA-CA45-ECF45AA7582C">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>C26788E4-1278-458F-2651-83BD0CA465EB</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dept_name" id="1F14FDD8-9AD5-9258-BAF8-24BE35516BA0">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>0C6546F5-0FE0-6CD7-65A5-D9C1D0217DA7</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDDF9B3B-7E2D-5E59-F692-F65FAD52CCBA" name="S16_Department_PK">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>E8AE00BF-79FC-49F0-5D76-F0DFE4066948</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

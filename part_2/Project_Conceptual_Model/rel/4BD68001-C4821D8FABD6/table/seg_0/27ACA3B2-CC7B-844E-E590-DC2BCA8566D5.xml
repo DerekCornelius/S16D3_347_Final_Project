@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27ACA3B2-CC7B-844E-E590-DC2BCA8566D5" name="S16_Current_Project_Employee">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>30FBE117-E594-A089-97A5-24F485091021</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpe_id" id="441BD371-A958-5B3C-F217-F1E420BBE199">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>F79CCD33-8646-D362-B8C4-034C14DB5B86</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpemployee_id" id="A7DCF7B2-0B03-6AED-C0F9-0A92ABAECDFD">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>A7596ED0-3CE4-22A2-7924-3C5992DCE6C7</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cproject_no" id="273DCF1A-C051-4AE1-C3E0-BF0886DF725D">
+<createdBy>mario</createdBy>
+<createdTime>2016-03-29 23:05:48 UTC</createdTime>
+<generatorID>7C08F196-E703-4E29-3081-DB9802131D75</generatorID>
+<ownerDesignName>Project_Conceptual_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
