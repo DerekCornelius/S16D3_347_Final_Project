@@ -1,1 +1,13 @@
-blah blah blah !!
+SIM
+	- no need for logical, relational models
+	- no foreign keys, primary keys
+	- need to explicitly declare relationships between rows(entities)
+	- when you create an instance of a subclass it automatically creates instance of superclass(no need for ddl4 in relational)
+
+
+Relational
+	- not as intuitive as object oriented nature of SIM (you need logical and relational models)
+	- all classes need a primary key and relationship are defined implicitly with foreign keys
+	- you need triggers(ddl4) to insert instance of superclass when creating subclass
+
+
